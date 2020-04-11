@@ -1,0 +1,37 @@
+body {
+    background: #56CCF2; 
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  
+    background: linear-gradient(to right, #2F80ED, #56CCF2); 
+}
+.contenido {
+    margin-top: 40px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 34px;
+}
+h3 {
+    text-align: center;
+}
+
+.tituloPais{
+    font-size: 3rem;
+}
+
+#divInformacion {
+    background-color: white;
+    padding: 50px;
+}
+
+.lista {
+    list-style: none;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #56CCF2; 
+    background: rgb(219, 246, 255); 
+}
+.lista li:last-child{
+    margin:0;
+}

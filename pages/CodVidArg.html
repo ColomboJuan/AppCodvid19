@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Casos CodVid-19 Argentina</title>
+    <link rel="stylesheet" href="../styles/CodVidArg.css">
+    <link href="https://bootswatch.com/4/sandstone/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div id="contenido" class="contenido">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Casos CodVid-19 Argentina</a>
+              
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#"> <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="http://localhost:5500/ApiCodVid19/#">Casos CodVid-19 por paises</a>
+                  </div>
+              </nav>
+            <div id="divInformacion">
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="lista" id="casoConfiramdos"></ul>
+                        <ul class="lista" id="casoMuertes"></ul>
+                        <ul class="lista" id="casosActivos"></ul>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="mensajes col-12"></div>
+                        <div id="resultado">
+                            <ul class="lista" id="casoRecuperados"></ul>
+                            <ul class="lista" id="casoTests"></ul>
+                            <ul class="lista" id="casoCriticos"></ul>
+                        </div>
+                           
+
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="../scripts/api.js"></script>
+    <script src="../scripts/ui.js"></script>
+    <script src="../scripts/appArg.js"></script>
+</body>
+</html>
