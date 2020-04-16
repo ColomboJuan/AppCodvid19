@@ -41,7 +41,7 @@ const myChart = new Chart(ctx, {
 }
 async function getData(){
 
-fetch("http://127.0.0.1:5500/ApiCodVid/timeseriesArg.json")
+fetch("https://juan-colombo95.github.io/AppCodvid19/data/timeseriesArg.json")
   .then(response => response.json())
   .then(data => {
     data["Argentina"].forEach(({ date, confirmed, recovered, deaths }) =>{
