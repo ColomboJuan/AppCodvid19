@@ -1,6 +1,5 @@
 const API = new Api()
 const UI = new Interfaz()
-
 const formulario = document.getElementById('buscarCasos')
 let resultado
 //Funciones Casos por paises

@@ -4,7 +4,6 @@ class Api {
 
         const urlCasosPais = await fetch(url)
         let resultado
-        console.log(url)
 
         await urlCasosPais.json()
             .then(data => {

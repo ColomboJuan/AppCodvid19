@@ -4,7 +4,10 @@ body {
     background: linear-gradient(to right, #2F80ED, #56CCF2); 
 }
 .contenido {
-    margin-top: 40px;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
 h1 {
     color: white;
