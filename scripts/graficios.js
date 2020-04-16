@@ -7,7 +7,6 @@ async function chartIt(){
    await getData()
 
 const ctx = document.getElementById('chart').getContext('2d');
-console.log('estoy acá1');  
 
 const myChart = new Chart(ctx, {
   type: 'line',
@@ -50,7 +49,6 @@ fetch("https://juan-colombo95.github.io/AppCodvid19/data/timeseriesArg.json")
         xCasesDeaths.push(deaths)
         xCasesRecovered.push(recovered)
         xlabels.push(date)
-        console.log('estoy acá 2');  
 
     });
   });
