@@ -51,8 +51,8 @@ async function getData() {
         xCasesRecovered.push(recovered)
         xlabels.push(date)
 
-        chartIt()
       });
     });
+  chartIt();
 
 }
