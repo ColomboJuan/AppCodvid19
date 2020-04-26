@@ -1,11 +1,11 @@
 ### Data
 
-\
+
 
 API desarrollada en flask para manipular base de datos MySQL con los
 datos de los informes oficiales del COVID19 del Ministerio de Salud
 Argentino. \
- \
+
  [![Open In
 Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1K1ilzDK5F60_KeJ2aifrFOvBw9337T8Q)
 
