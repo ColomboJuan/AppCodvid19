@@ -12,7 +12,8 @@ Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.
 ### Uso de la API
 
 
- La API tiene 3 endpoints: \
+ La API tiene 3 endpoints: 
+ 
  
 
 -   Rango entre fechas, ejemplo:
