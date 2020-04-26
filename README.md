@@ -22,7 +22,7 @@ Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.
     http://damianra.pythonanywhere.com/api/v1/date?date=2020-03-25
 -   Todos los datos: http://damianra.pythonanywhere.com/api/v1/alldata
 
-\
+
 
 ### Fuente
 
