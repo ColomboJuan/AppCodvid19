@@ -13,7 +13,7 @@ Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.
 
 
  La API tiene 3 endpoints: \
- \
+ 
 
 -   Rango entre fechas, ejemplo:
     http://damianra.pythonanywhere.com/api/v1/range?startdate=2020-03-10&enddate=2020-04-10
