@@ -32,7 +32,7 @@ Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.
 \
  Tambien se usaron datasets ofrecidos por otras personas que tambien se
 tomaron el trabajo de hacer un seguimiento. \
- \
+
 
 ### Desarrolladores
 
